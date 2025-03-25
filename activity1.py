@@ -2,7 +2,6 @@
 
 #1.
 print("\nCalculate the multiplication and sum of two numbers")
-
 a=int(input("Enter first number:"))
 b=int(input("Enter second number:"))
 mul=a*b
@@ -13,8 +12,8 @@ print("Sum of 2 numbers:",sum)
 
 #2.
 print("\n\nDeclare two variables and print that which variable is largest using ternary operators")
-a = 10
-b = 20
+print("a = 10")
+print("b = 20")
 largest = a if a > b else b
 print("The largest number is:",largest)
 
@@ -24,7 +23,7 @@ print("\n\nTake input from user (name,age,city) and print it in formatted string
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 city = input("Enter your city: ")
-print(f"\nName is {name}")
+print(f"Name is {name}")
 print(f"Age is {age}")
 print(f"City is {city}") 
 
